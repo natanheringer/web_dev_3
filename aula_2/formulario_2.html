@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo de Formulário com JavaScript</title>
+<script src="script_2.js" defer></script>
+<link rel="stylesheet" href="css/rel.css"> 
+</head>
+<body>
+    <div  class="card" style="width: 36rem;" >
+    <img src="math.jpg">
+    <h1 class="card-body">Juros</h1>
+    
+    <form id="jurosForm">
+        <label for="valorTotal">Valor total da Compra(R$): </label>
+        <input type="number" id="valorTotal" name="valorTotal" required>
+        <br>
+        
+        <label for="parcelas">Parcelas </label>
+        <input type="number" id="parcelas" name="parcelas" required>
+        <br>
+        
+        <label for="taxaJuros">Taxa de Juros Mensal (%) </label>
+        <input type="number" id="taxaJuros" name="taxaJuros" required>
+        <br>
+
+        
+        <button type="submit">Calcular</button>
+    
+    </form>    
+    <p>O valor de cada parcela: <span id="resultadoParcela"></span></p>
+    <p>O valor total: <span id="resultadoTotal"></span></p>
+
+</div>
+<br>
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Calculando o quadrado de um numero</h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+      <p class="card-text" id="resultado_1">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+</body>
+</html>
